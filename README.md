@@ -1,6 +1,7 @@
-Thanks! Now that I have your retry_simulator.py, your .gitignore, and your previous summary, I’ll write a clean, professional README.md for your project. This README.md wil
+README.md  
 
-README.md
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 # Retry Simulator with Stripe API
 
@@ -8,7 +9,13 @@ This project is a learning exercise focused on implementing **retry logic** in P
 
 ## Project Structure
 
-retry_simulator/ ├── .env ├── main.py ├── utils/ │   └── retry_simulator.py ├── .gitignore └── requirements.txt
+retry_simulator/   
+├── .env   
+├── main.py   
+├── utils/   
+│   └── retry_simulator.py   
+├── .gitignore   
+└── requirements.txt  
 
 ## Description
 
@@ -67,7 +74,4 @@ python utils/retry_simulator.py
 
 This project is for educational purposes.
 
----
-
-Let me know if you'd like me to include badge placeholders, GitHub actions, or a requirements.txt template!
 
