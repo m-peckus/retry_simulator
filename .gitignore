@@ -1,2 +1,5 @@
+# Ignore environment variables
 .env
-__pycache__
+# Ignore all __pychace__ directories recursively
+__pycache__/
+**/__pychace__/

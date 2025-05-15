@@ -32,6 +32,6 @@ def call_stripe_customers():
 
 # Simulate multiple rapid requests to trigger rate limits
 if __name__ == "__main__":
-    for _ in range(100): # Make 100 quick requests to attempt to trigger rate limit
+    for _ in range(100): # Make 100 quick requests in an attempt to trigger rate limit
         response = call_stripe_customers()
         print(response)
